@@ -9,3 +9,50 @@
     --blue : #549EF2;
     --orange : #FCAE4A;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--white);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    width: 33.75rem;
+}
+
+.slogan, .slogan-2 {
+    font-size: 2.25em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    line-height: 140%;
+    letter-spacing: .25px;
+    color: var(--grey-500);
+}
+
+.slogan-2 {
+    font-weight: 600;
+}
+
+.desc {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 140%;
+}
